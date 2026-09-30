@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* High Contrast & Accessibility Utility Styles */
+:focus-visible {
+  outline: 4px solid #facc15 !important;
+  outline-offset: 3px !important;
+}
+
+/* Yellow on Black Theme */
+body.theme-yellow-black {
+  background-color: #000000;
+  color: #fef08a;
+}
+
+/* Soft and Calm Theme */
+body.theme-soft-calm {
+  background-color: #fefce8;
+  color: #1c1917;
+}
+
+/* High Contrast Light Theme */
+body.theme-high-contrast-light {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Text Size Scalers */
+body.font-large {
+  font-size: 1.125rem;
+}
+
+body.font-extra-large {
+  font-size: 1.25rem;
+}
+
+/* Touch Target Minimums */
+button, a {
+  touch-action: manipulation;
+}
+

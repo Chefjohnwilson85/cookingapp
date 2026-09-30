@@ -1,0 +1,8 @@
+{
+  "name": "Remix CookEasy - Accessible Cooking Assistant",
+  "description": "Simple step-by-step cooking instructions with video tutorials, built-in speech guidance, high contrast visuals, and big easy-to-tap buttons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
